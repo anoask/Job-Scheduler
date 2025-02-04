@@ -5,6 +5,7 @@
 This program is a simple FIFO-based scheduler designed to manage jobs with various attributes such as name, user, CPU/GPU counts, memory, time, and priority. It provides basic functionality to add jobs, remove jobs, and list jobs based on different criteria like user or capacity.
 
 
+
 #Files:
 
 <p>
@@ -22,6 +23,9 @@ To compile the program, run the following command in the terminal:
 make
 This will generate the executable project10_scheduler.
 <p>
+
+
+
 
 #Usage:
 <p>
