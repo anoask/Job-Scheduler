@@ -1,12 +1,13 @@
 # Job-Scheduler
 
-Overview:
+#Overview:
 
 This program is a simple FIFO-based scheduler designed to manage jobs with various attributes such as name, user, CPU/GPU counts, memory, time, and priority. It provides basic functionality to add jobs, remove jobs, and list jobs based on different criteria like user or capacity.
 
 
-Files:
+#Files:
 
+<p>
 main.c: Contains the main function and user interface logic. It prompts the user for operation codes and calls corresponding functions defined in job.c to perform operations on the scheduler.
 
 job.c: Implements functions to manipulate the job scheduler. This includes functions to add jobs, remove jobs, list jobs by user, list jobs by capacity, list all jobs, and clear all jobs.
@@ -20,9 +21,10 @@ Compilation:
 To compile the program, run the following command in the terminal:
 make
 This will generate the executable project10_scheduler.
+<p>
 
-
-Usage:
+#Usage:
+<p>
 After compiling, execute the program by running:
 ./project10_scheduler
 
@@ -42,3 +44,4 @@ j: List jobs by capacity.
 l: List all jobs.
 
 q: Quit the program.
+<p>
