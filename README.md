@@ -1,12 +1,12 @@
-## Job-Scheduler
+# Job-Scheduler
 
-# Overview:
+## Overview:
 
 This program is a simple FIFO-based scheduler designed to manage jobs with various attributes such as name, user, CPU/GPU counts, memory, time, and priority. It provides basic functionality to add jobs, remove jobs, and list jobs based on different criteria like user or capacity.
 
 
 
-# Files:
+## Files:
 
 <p>
 main.c: Contains the main function and user interface logic. It prompts the user for operation codes and calls corresponding functions defined in job.c to perform operations on the scheduler.
@@ -27,7 +27,7 @@ This will generate the executable project10_scheduler.
 
 
 
-# Usage:
+## Usage:
 <p>
 After compiling, execute the program by running:
 ./project10_scheduler
